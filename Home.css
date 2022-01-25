@@ -1,6 +1,6 @@
 
 body {
-    background: url('Dark2.jpg'); 
+    background: url('images/background.jpg'); 
     background-size: cover; 
     text-align: left;
     font-family:Arial;
@@ -9,7 +9,7 @@ body {
 h1 { 
     font-family: 'Bungee Shade'; 
     font-size: 90px;
-    color: white;
+    color: rgb(0, 0, 0);
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ hr {
     }
 
 h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     text-align: center;
     padding-left: 100px;
@@ -32,6 +32,14 @@ h2 {
     width: 96%; 
     margin: auto;
     }
+
+.catimg img{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom:25px;
+    width: 650px;
+    height: 400px;
+}
 
 img {
     float: left;
@@ -102,7 +110,7 @@ p
 { padding: 0 0 20px 0;
 line-height: 1.7em;
 margin-left: 30px;
-color: rgb(116, 116, 231)}
+color: rgb(119, 95, 30)}
 
 img
 { border: 0;}
@@ -177,12 +185,12 @@ width: 224px;}
 { width: 222px;
 height: 14px;
 margin-bottom: -1px;
-background: transparent url(side_top.png) no-repeat;}
+background: transparent url(images/side_top.png) no-repeat;}
 
 .sidebar_base
 { width: 222px;
 height: 14px;
-background: transparent url(side_base.png) no-repeat;}
+background: transparent url(images/side_base.png) no-repeat;}
 
 .sidebar
 { float: right;
@@ -191,7 +199,7 @@ padding: 0;
 margin: 0 0 16px 0;}
 
 .sidebar_item
-{ background: url(side_back.png) repeat-y;
+{ background: url(images/side_back.png) repeat-y;
 padding: 0 15px;
 width: 192px;}
 
@@ -211,7 +219,7 @@ margin-left: 150px;
 
 .sidebar ul li
 { list-style-type: none;
-background: url(bullet.png) no-repeat;
+background: url(images/bullet.png) no-repeat;
 margin: 0 0 0 0; 
 padding: 0 0 4px 25px;
 line-height: 1.5em;}
