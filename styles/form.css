@@ -55,7 +55,7 @@ p{
     font-size: 15px;
     
 }
-form  { margin-left: 750px;    }
+form  { margin-left: 550px;    }
 label {
     display: inline-block;
     width: 170px;
@@ -67,7 +67,9 @@ label {
     color: red;
 }
 
-
+button {
+    margin-left: 300px;
+}
 nav a:link, a:visited, a:active {
     color: black;
     background-color: rgb(126, 126, 126);
