@@ -47,6 +47,7 @@ h2 {
     width: 650px;
     height: 400px;
 }
+
 .catimg cite{
     margin-left: 30px;
     margin-bottom: 50px;
@@ -122,9 +123,11 @@ nav a:hover {
     text-decoration: underline;
 
 }
-*
-{ margin: 0;
-padding: 0;}
+
+*{
+     margin: 0;
+    padding: 0;
+}
 
 p#sidebar{
     margin-left: 0px;
@@ -142,8 +145,9 @@ line-height: 1.7em;
 margin-left: 30px;
 color: rgb(119, 95, 30)}
 
-img
-{ border: 0;}
+img{
+    border: 0;
+}
 
 #sleep {
     width: 700px;
@@ -151,115 +155,135 @@ img
     margin-top:0;
     margin-bottom: 10px;
 }
-h3, h4, h5
-{ color: #362C20;
-letter-spacing: 0em;
-padding: 0 0 5px 0;}
 
-h3
-{ font: normal 170% 'century gothic', arial;
-margin: 0 0 15px 0;
-padding: 15px 0 5px 0;
-color:  #000;}
+h3, h4, h5{ 
+    color: #362C20;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+}    
 
-h3
-{ font-size: 140%;
-padding: 5px 0 0 0;}
-
-h4, h6
-{ color: darkblue;
-padding: 0 0 5px 0;
-font: normal 110% arial;
-text-transform: uppercase;}
-
-h5
-{ color: #888;
-font: normal 95% arial;
-letter-spacing: normal;
-padding: 0 0 15px 0;}
-
-a, a:hover
-{ outline: none;
-text-decoration: underline;
-color: #AEB002;}
-
-a:hover
-{ text-decoration: none;}
-
-ul
-{ margin: 2px 0 22px 17px;}
-
-ul li
-{ list-style-type: circle;
-margin: 0 0 6px 0; 
-padding: 0 0 4px 5px;
-line-height: 1.5em;}
-
-#site_content
-{ margin-left: auto; 
-margin-right: auto;}
-
-#site_content
-{ width: 880px;
-overflow: hidden;
-margin: 20px auto 0 auto;
-padding: 0 0 10px 0;} 
-
-#sidebar_container
-{position:absolute;
-right: 120px;
-top: 220px;
-width: 224px;}
-
-
-.sidebar_top
-{ width: 222px;
-height: 14px;
-margin-bottom: -1px;
-/*Source: (original work) Shivalika Gupta */ 
-background: transparent url(../images/side_top.png) no-repeat;}
-
-.sidebar_base
-{ width: 222px;
-height: 14px;
-/*Source: (original work) Shivalika Gupta */ 
-background: transparent url(../images/side_base.png) no-repeat;}
-
-.sidebar
-{ float: right;
-width: 222px;
-padding: 0;
-margin: 0 0 16px 0;}
-
-.sidebar_item
-{ /*Source: (original work) Shivalika Gupta */ 
-background: url(../images/side_back.png) repeat-y;
-padding: 0 15px;
-width: 192px;}
-
-.sidebar li a.selected
-{ color: #444;} 
-
-.sidebar ul
-{ margin: 0;} 
-
-#content
-{ text-align: left;
-width: 620px;
-padding: 0 0 0 5px;
-float: left;
-margin-left: 150px;
+h3{
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color:  #000;
 }
 
-.sidebar ul li
-{ list-style-type: none;
-/*Source: (original work) Shivalika Gupta */ 
-background: url(../images/bullet.png) no-repeat;
-margin: 0 0 0 0; 
-padding: 0 0 4px 25px;
-line-height: 1.5em;}
+h3{
+    font-size: 140%;
+    padding: 5px 0 0 0;
+}
+
+h4, h6{
+    color: darkblue;
+    padding: 0 0 5px 0;
+    font: normal 110% arial;
+    text-transform: uppercase;
+}
+
+h5{
+    color: #888;
+    font: normal 95% arial;
+    letter-spacing: normal;
+    padding: 0 0 15px 0;
+}
+
+a, a:hover{
+    outline: none;
+    text-decoration: underline;
+    color: #AEB002;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    margin: 2px 0 22px 17px;
+}
+
+ul li{
+    list-style-type: circle;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+#site_content{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#site_content{
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    padding: 0 0 10px 0;
+} 
+
+#sidebar_container{
+    position:absolute;
+    right: 120px;
+    top: 220px;
+    width: 224px;
+}
+
+
+.sidebar_top{
+    width: 222px;
+    height: 14px;
+    margin-bottom: -1px;
+    /*Source: (original work) Shivalika Gupta */ 
+    background: transparent url(../images/side_top.png) no-repeat;
+}
+
+.sidebar_base{
+    width: 222px;
+    height: 14px;
+    /*Source: (original work) Shivalika Gupta */ 
+    background: transparent url(../images/side_base.png) no-repeat;
+}
+
+.sidebar{
+    float: right;
+    width: 222px;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.sidebar_item{ 
+    /*Source: (original work) Shivalika Gupta */ 
+    background: url(../images/side_back.png) repeat-y;
+    padding: 0 15px;
+    width: 192px;
+}
+
+.sidebar li a.selected{
+    color: #444;
+} 
+
+.sidebar ul{
+    margin: 0;
+} 
+
+#content{
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: left;
+    margin-left: 150px;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+    /*Source: (original work) Shivalika Gupta */ 
+    background: url(../images/bullet.png) no-repeat;
+    margin: 0 0 0 0; 
+    padding: 0 0 4px 25px;
+    line-height: 1.5em;
+}
 
 #stupid {
-        margin-top: 0px;
-        margin-left: -15px;
+    margin-top: 0px;
+    margin-left: -15px;
 }

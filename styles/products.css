@@ -1,10 +1,17 @@
-*{margin:0;padding:0;}
-.cat 
-{ width: 120px; float: left; margin-right: 30px;}
+*{
+    margin:0;
+    padding:0;
+}
 
-.cat img{width: 100%; }
+.cat {
+    width: 120px;
+    float: left;
+    margin-right: 30px;
+}
 
-
+.cat img{
+    width: 100%;
+}
 
 .Sally cite{
     margin-left: 470px;
@@ -26,7 +33,10 @@ body {
 h1 {
     display:inline;
     color:rgb(0, 0, 0); 
+    font-family: 'Bungee Shade';
+    font-size: 80px; 
 }
+
 hr {
     background-color: rgb(24, 30, 44); height: 10px; border: 0;
 }
@@ -61,11 +71,10 @@ container.box{
     margin-right: 40px;
     margin-left: 40px;
 }
+
 .boxed2{
     line-height: 3.5;
 }
-
-
 
 p.clear{
     clear:both;
@@ -91,6 +100,7 @@ nav a:hover {
     padding-right: 25px;
     text-decoration: underline;
     }
+    
 nav {
     float: right;
     line-height: 70px;
