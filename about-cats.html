@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+       <title> About Cats </title>
+       <link rel="stylesheet" href="styles/about-cats.css" type="text/css" media="screen"/>
+       <style type= "text/css">
+        .flip3D {width:500px; height:600px; margin:20px 20px 20px 25%;}
+.flip3D > .front1, .front2, .front3, .front4, .front5, .front6 {
+    text-align:center;    
+position: absolute;
+-webkit-transform: perspective( 600px) rotateY(0deg);
+transform: perspective( 600px) rotateY(0deg);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+transition: transform .5s linear 0s; 
+}
+
+.flip3D > .front1 h2, .front2 h2, .front3 h2, .front4 h2, .front5 h2, .front6 h2 {
+ margin-top: 6.5em;
+}
+.flip3D > .front1 h2{
+    background: rgba(197, 168, 168, 0.4);
+}
+.flip3D > .front2 h2{
+    background: rgba(218, 211, 211, 0.4);
+}
+.flip3D > .front3 h2{
+    background: rgba(131, 87, 87, 0.5);
+}
+.flip3D > .front4 h2{
+    background: rgba(185, 181, 181, 0.6);
+}
+
+.flip3D > .front1 {
+    /* Source: https://www.theguardian.com/lifeandstyle/2020/sep/05/what-cats-mean-by-miaow-japans-pet-guru-knows-just-what-your-feline-friend-wants */
+    background: url('images/interestingstat.jpg'); width:600px; height:500px; border-radius:7px;
+    background-size: 600px;
+    opacity: .75;
+}
+.flip3D > .front2 {
+    /* Source: https://miaustore.com/uk/why-does-my-cat-eat-human-food/ */
+    background: url('images/angry\ cat.jpg'); width:600px; height:500px; border-radius:7px;
+    background-size: 650px; opacity: .75; 
+}
+.flip3D > .front3 {
+    /* Source: https://rawznaturalpetfood.com/foods-your-cat-should-never-eat/ */
+    background: url('images/Toxic.jpg'); width:600px; height:500px; border-radius:7px;
+    opacity: .75;
+}
+.flip3D > .front4 {
+    /* Source: https://www.vox.com/future-perfect/21536524/cats-dogs-feline-philosophy-john-gray */
+    background: url('images/cat\ chilling.jpg'); width:600px; height:500px; border-radius:7px;
+    background-size: 650px;
+    opacity: .75;
+}
+
+
+.flip3D > .back {
+position: absolute;
+-webkit-transform: perspective( 600px) rotateY(180deg);
+transform: perspective( 600px) rotateY(180deg);
+background: rgba(246, 246, 245, .75); width:600px; height:500px; border-radius:7px;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+transition: transform .5s linear 0s;
+}
+.flip3D:hover> .front1{
+    -webkit-transform: perspective(600px) rotateY( -180deg);
+    transform: perspective(600px) rotateY( -180deg);
+}
+.flip3D:hover> .front2{
+    -webkit-transform: perspective(600px) rotateY( -180deg);
+    transform: perspective(600px) rotateY( -180deg);
+}
+.flip3D:hover> .front3{
+    -webkit-transform: perspective(600px) rotateY( -180deg);
+    transform: perspective(600px) rotateY( -180deg);
+}
+.flip3D:hover> .front4{
+    -webkit-transform: perspective(600px) rotateY( -180deg);
+    transform: perspective(600px) rotateY( -180deg);
+}
+
+.flip3D:hover> .back{
+    -webkit-transform: perspective(600px) rotateY( 0deg);
+    transform: perspective(600px) rotateY( 0deg);
+}
+</style>
+   </head>
+   <body>
+        <div class="cat"> 
+        <!-- Source: https://www.freeiconspng.com/downloadimg/40358 -->
+        <a href="index.html" target="_self"> <img src= "images/cat-png.png" alt="A cat." title="Click the cat to return Home.">  </a>
+        <cite><a href="https://www.freeiconspng.com/downloadimg/40358">Cute Cat Image</a></cite>
+        </div>
+       <h1> About Cats </h1>
+       <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+       <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+       <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet'>
+    </div>                   
+    <nav>
+      <li> <a href="index.html" target="_self">  <strong> Home  </strong></a>  </li>
+      <li> <a href="about-cats.html" target="_self">  <strong> About Cats </strong>  </a> </li>
+      <li> <a href="products.html" target="_self">  <strong> Products </strong> </a>  </li>
+      <li> <a href= "form.html" target= "_self"> <strong> Contact Us </strong></a></li>
+    </nav>
+</div>
+<hr>
+
+
+
+<style>
+    
+h1 {font-family: 'Bungee Shade'; font-size: 80px;}
+h2 { font-family: "verdana"; font-size: 33px;} 
+ul { font-family: "verdana"; font-size: 27px; } 
+
+  </style>
+  <cite><a href="https://www.theguardian.com/lifeandstyle/2020/sep/05/what-cats-mean-by-miaow-japans-pet-guru-knows-just-what-your-feline-friend-wants">Big Eyed Cat Image Source</a></cite>
+    <div class="flip3D">
+
+      <div class="front1">
+          
+     <h2>Interesting Statistics </h2>
+    </div>
+    <div class="back">
+    <ul>
+        <li>More than 400 million cats live across the globe.</li>
+        <li>42.7 million US households have at least one cat.</li>
+        <li>It’s believed that roughly 73 million cats in the US are feral or unowned.</li>
+        <li>Approximately 10% of Americans feed community cats.</li>
+        <li>Every year, 1.6 million cats get adopted.</li>
+        <li>More kittens are adopted than older cats, cat statistics show.</li>
+        <li>43% of owners got their cat from a shelter or rescue.</li>
+         </ul>
+        </div>
+    </div>
+    
+    <cite><a href="https://miaustore.com/uk/why-does-my-cat-eat-human-food/ ">Angry Cat Image Source</a></cite>
+        <div class="flip3D">
+        <div class="front2">
+       <h2> Dangers of feeding your cat the wrong food </h2>
+       </div>
+       <div class="back">
+  <ul>
+<li>Obesity</li>
+<li>Urinary Crystals & Stones</li>
+<li>Allergic Reactions</li>
+<li>Gastrointestinal Upset</li>
+<li>Diabetes Mellitus</li>
+<li>Immunosuppression</li>
+<li>Nutritional Imbalances</li>
+         </ul>
+     
+        </div>
+    </div>
+    
+    <cite><a href="https://rawznaturalpetfood.com/foods-your-cat-should-never-eat/ ">Toxic Food for Cats  Source</a></cite>
+    <div class="flip3D">
+                <div class="front3">    
+      <h2> Foods Cats Shouldn't Eat</h2>
+      </div>
+      <div class="back">
+	   <ul>
+		<li>Chocolate</li>
+<li>Grapes and raisins</li>
+<li>Onions and garlic</li>
+<li>Macadamia nuts</li>
+<li>Bread dough</li> 
+<li>Alcohol</li>
+<li>Xylitol, an artificial sweetener found in sugar-free gum and candy</li>
+        </ul>
+   
+    </div>  
+    </div>
+    <cite><a href="https://www.vox.com/future-perfect/21536524/cats-dogs-feline-philosophy-john-gray">Happy Cat Image Source</a></cite>
+    <div class="flip3D">
+            <div class="front4">
+<h2> Fun Facts</h2>
+</div>
+<div class="back">
+  <ul>
+    <li>A house cat’s genome is 95.6 percent tiger, and they share many behaviors with their jungle ancestors.</li>
+    <li>Cats are believed to be the only mammals who don’t taste sweetness.</li>
+    <li>Cats are nearsighted, but their peripheral vision and night vision are much better than that of humans.</li>
+    <li>Cats are supposed to have 18 toes (five toes on each front paw; four toes on each back paw).</li>
+    <li>Cats can jump up to six times their length.</li>
+      </ul>
+
+    </div> 
+    </div>
+
+<div class="boxed7">
+<hr>
+<h2>Resources</h2>
+<p><a href=https://petpedia.co/cat-statistics/#:~:text=More%20than%20400%20million%20cats,of%20Americans%20feed%20community%20cats. target="_self"> petpedia </a> </p>
+<p><a href="https://iheartcats.com/7-health-problems-caused-by-feeding-the-wrong-cat-food/#:~:text=Obesity%20is%20also%20linked%20to,and%20not%20enough%20of%20another." target="_self">iheartcats</a> </p>
+<p><a href="https://pets.webmd.com/cats/ss/slideshow-people-foods-cats-can-eat" target="_self">Foods Cats Can Eat</a> </p>
+<p><a href=https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/ target="_self">Charlottesville Cat Care Clinic</a> </p>
+<br>
+<hr>
+<br>
+</div>
+<div class="background">
+    <cite><a href="https://www.usgbcwm.org/members/chapter-member-directory/radient-gradient-bg-light/">Blue Background  Source</a></cite>
+</div>
+   </body>
+</html>

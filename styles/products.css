@@ -1,12 +1,31 @@
 *{margin:0;padding:0;}
+.cat 
+{ width: 120px; float: left; margin-right: 30px;}
+
+.cat img{width: 100%; }
+
+
+
+.Sally cite{
+    margin-left: 470px;
+}
+
+cite {
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    }
+
 body {
-   background-image: url(bright2.jpg);
+   background-image: url(../images/background.jpg);
    background-size: cover;
    font-family: verdana;
    
 }
 h1 {
     display:inline;
+    color:rgb(0, 0, 0); 
 }
 hr {
     background-color: rgb(24, 30, 44); height: 10px; border: 0;
@@ -17,19 +36,19 @@ h3 {
 
     
 h2{
-    color:whitesmoke; 
+    color:rgb(0, 0, 0); 
     margin-left: 50px;
 }
 
 
     
 p{
-    color:whitesmoke;
+    color:rgb(0, 0, 0);
     margin-left: 50px;
 }
 
 container.box{
-    color: white;
+    color: rgb(255, 255, 255);
     box-align: right; 
 }
    
@@ -85,7 +104,7 @@ nav li {
     line-height: normal;
        }
 img{
-    margin-left: 50px;
+    margin-left: 20px;
     border-color: rgb(24, 30, 44);
 }
 .checked {

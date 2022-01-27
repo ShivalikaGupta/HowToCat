@@ -1,6 +1,7 @@
 
 body {
-    background: url('images/background.jpg'); 
+    /*Source: https://www.usgbcwm.org/members/chapter-member-directory/radient-gradient-bg-light/ */ 
+    background: url('../images/background.jpg'); 
     background-size: cover; 
     text-align: left;
     font-family:Arial;
@@ -16,9 +17,11 @@ h1 {
     margin-top: -35px;
     }
 
+
 hr {
-    margin-top: -30px;
-    }
+    background-color: rgb(24, 30, 44); height: 10px; border: 0; margin-top: -30px;
+}
+
 
 h2 {
     color: rgb(0, 0, 0);
@@ -33,12 +36,25 @@ h2 {
     margin: auto;
     }
 
+.catimg { 
+    width: 650px; 
+    float: left; 
+}
+
 .catimg img{
     margin-top: 0px;
     margin-left: 30px;
-    margin-bottom:25px;
     width: 650px;
     height: 400px;
+}
+.catimg cite{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.background cite{
+    float:left;
+    margin-left: 0px;
 }
 
 img {
@@ -65,6 +81,20 @@ nav li {
 article {
     color: white;
     font-size: 30px;
+    }
+
+.cat { 
+    width: 120px; 
+    float: left;
+    margin-right: 30px;}
+
+.cat img{width: 100%; }
+
+cite {
+    margin-left: 60px;
+    font-style: italic;
+    font-size: 8px;
+    color: rgb(129, 106, 106);
     }
 
 ul li {
@@ -181,16 +211,19 @@ right: 120px;
 top: 220px;
 width: 224px;}
 
+
 .sidebar_top
 { width: 222px;
 height: 14px;
 margin-bottom: -1px;
-background: transparent url(images/side_top.png) no-repeat;}
+/*Source: (original work) Shivalika Gupta */ 
+background: transparent url(../images/side_top.png) no-repeat;}
 
 .sidebar_base
 { width: 222px;
 height: 14px;
-background: transparent url(images/side_base.png) no-repeat;}
+/*Source: (original work) Shivalika Gupta */ 
+background: transparent url(../images/side_base.png) no-repeat;}
 
 .sidebar
 { float: right;
@@ -199,7 +232,8 @@ padding: 0;
 margin: 0 0 16px 0;}
 
 .sidebar_item
-{ background: url(images/side_back.png) repeat-y;
+{ /*Source: (original work) Shivalika Gupta */ 
+background: url(../images/side_back.png) repeat-y;
 padding: 0 15px;
 width: 192px;}
 
@@ -219,7 +253,8 @@ margin-left: 150px;
 
 .sidebar ul li
 { list-style-type: none;
-background: url(images/bullet.png) no-repeat;
+/*Source: (original work) Shivalika Gupta */ 
+background: url(../images/bullet.png) no-repeat;
 margin: 0 0 0 0; 
 padding: 0 0 4px 25px;
 line-height: 1.5em;}

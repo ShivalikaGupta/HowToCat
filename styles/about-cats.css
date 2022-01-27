@@ -1,0 +1,129 @@
+
+.cat 
+{ width: 120px; float: left; margin-right: 30px;}
+
+.cat img{width: 100%; }
+
+.cat cite{margin-left: 35px}
+
+.background cite{margin-left: 0px}
+
+p a:link, a:visited, a:active {
+    color: white; 
+   
+}
+
+cite {
+    margin-left: 375px;
+    font-style: italic;
+    font-size: 8px;
+    color: rgb(121, 99, 99);
+    }
+ 
+
+
+h1 {
+    font-family: 'Bungee Shade';
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ hr {
+    background-color: rgb(24, 30, 44); height: 10px; border: 0; margin-top: -20px;
+}
+
+body{
+    font-family: arial;
+    /*Source: https://www.usgbcwm.org/members/chapter-member-directory/radient-gradient-bg-light/ */ 
+    background: url('../images/background.jpg'); 
+}
+h2   {color: black;font-weight:bold; ;}
+ul   {color: black; }
+.boxed1 ul{
+    background: rgba(223, 125, 125, 0.3);
+}
+.boxed2 ul{
+    background: rgba(150, 148, 148, 0.3);
+}
+.boxed3 ul{
+    background: rgba(245, 180, 180, 0.3);
+}
+.boxed3 h2, .boxed4 h2, .boxed1 h2, .boxed2 h2{
+    background: rgba(221, 214, 214, 0.4);
+}
+
+.boxed4 ul {
+    background: rgba(150, 148, 148, 0.5);
+}
+.boxed7 h2, .boxed7 p, .boxed7 a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.boxed1, .boxed2, .boxed3, .boxed4{
+        width: 320px;
+    padding: 10px;
+    border: 51px solid rgb(255, 255, 255);
+    margin: 0; 
+}
+img.headerimg {
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 5px;
+ }
+
+ nav {
+    float: right;
+    line-height: 70px;
+    margin-top: 80px;
+    margin-right: 20px;
+  
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: normal;
+    
+}
+nav a:link,nav  a:visited,nav a:active {
+    color: black;
+    background-color: rgb(126, 126, 126);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    }   
+
+nav a:hover {
+    color: rgb(72, 72, 72);
+    background: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: underline;
+    }
+
+
+
+
+
+ img {
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 5px;
+ }
+
+
+
+

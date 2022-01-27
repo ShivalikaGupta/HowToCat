@@ -1,33 +1,41 @@
-<!DOCTYPE HTML>
+
 <!DOCTYPE HTML> 
 <html>
     <head> 
         <!--Setup for home page. Includes CSS file and title of tab.-->
-        <link rel="stylesheet" href="Home.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="styles/home.css" type="text/css" media="screen"/>
         <title> Home </title>
     </head>
 
     <body>
         <!--Title and Navigation-->
-        <a href="index.html" target="_self"> <img src= "images/cat.png" alt="A cat." title="Click the moon to return Home.">  </a> 
+        <div class="cat"> 
+        <!-- Source: https://www.freeiconspng.com/downloadimg/40358 -->
+        <a href="index.html" target="_self"> <img src= "images/cat-png.png" alt="A cat." title="Click the cat to return Home.">  </a>
+        <cite><a href="https://www.freeiconspng.com/downloadimg/40358">Cute Cat Image</a></cite>
+        </div>
         <h1> Meow Meow </h1>
         <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
         </div>                    
             <nav>
                 <li> <a href="index.html" target="_self"> <strong> Home </strong> </a> </li>
-                <li> <a href="About Sleep.html" target="_self"> <strong> About Sleep </strong></a> </li>
-                <li> <a href="Products.html" target="_self"> <strong> Products </strong> </a>  </li>
+                <li> <a href="about-cats.html" target="_self"> <strong> About Cats </strong></a> </li>
+                <li> <a href="products.html" target="_self"> <strong> Products </strong> </a>  </li>
+                <li> <a href= "form.html" target= "_self"> <strong> Contact Us </strong></a></li>
             </nav>
         </div> 
         <hr>
         <br>
+        
 
         <!--Content-->
         <div id="content">
             <h2>Welcome!</h2>
             <br>
             <div class="catimg">
+            <!-- Source: https://www.purina.co.uk/articles/cats/feeding/guides/cat-nutrition-guide -->
             <img src="images/healthy cat.jpg" img id="cat" alt="A cat eating." title="A cat eating."> 
+            <cite><a href="https://www.purina.co.uk/articles/cats/feeding/guides/cat-nutrition-guide">Healthy Cat Image</a></cite>
             </div>
             <p><strong> Our Mission: </strong> Having trouble raising a healthy cat? We can help. Our team at Meow Meow has worked to especially design this cat resource site for you and your furry friend! The world's first free cat resource center: All the information, products, and resources you need to guarantee your cat stays healthy. The health of your cat is our highest priority. </p>
             <br>
@@ -54,48 +62,17 @@
                     <div class="sidebar_item">
                     <h3>Helpful Sites</h3>
                     <ul>
-                        <li><a href="https://sleepyti.me/">When Should I Go to Bed?</a></li>
-                        <li><a href="https://sleepfoundation.org/ ">National Sleep Foundation</a></li>
-                        <li><a href="https://insomniacookies.com/order#delivery">Insomnia Cookies!</a></li>
-                        <li><a href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWZd79rJ6a7lp">Sleepy Tunes</a></li>
+                        <li><a href="https://icatcare.org/">International Cat Care</a></li>
+                        <li><a href="https://trupanion.com/pet-care/cat">Cat Care Medical Insurance</a></li>
+                        <li><a href="https://www.chewy.com/?gclid=CjwKCAiA3L6PBhBvEiwAINlJ9DkqcwM3TayC00TbQlAOdPoWY1VAURlRUI42DxTB-96kt1zpfqx3DBoCPOEQAvD_BwE">Affordable Pet Supplies</a></li>
+                        <li><a href="https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat">About Cats</a></li>
                     </ul>
                     </div>
                     <div class="sidebar_base"></div>
                 </div>
-                <div class="sidebar">
-                    <div class="sidebar_top"></div>
-                    <div class="sidebar_item">
-                    <h3>Questions?</h3>
-        <form id="Inquiries"> 
-          <p id="sidebar2"><label for="name">Full Name</label> <br>
-          <input type="text" id="name" name="name" placeholder="John Appleseed">
-          </p>
-          <p id="sidebar2"> <label for="email">Email</label> <br>
-          <input type="text" id="email" name="email" placeholder="japple@yahoo.com">
-          </p>
-        <p id="sidebar2"><label for="Category">Category</label> <br>
-          <select id="Category" name="Category">
-            <option value="select option"> -- Select issue -- </option>  
-            <option value="stress"> Stress </option>
-            <option value="insomnia"> Insonmnia </option>
-            <option value="pain"> Pain </option>
-            <option value= "nightmares"> Nightmares </option>
-            <option value= "deprivation"> Sleep Deprivation </option>
-            <option value= "other"> Other </option>
-          </p>
-          </select>
-          <p id="sidebar2"> <label for="description"> Describe your issue... </label> <br>
-          <textarea name="message" rows="5" columns="5" id="message"> </textarea>  <br> <br>
-          <input type="button" onclick="myFunction(), alert('Thank you for your inquiry!')" value="Submit">
-        <script>
-        function myFunction() {
-            document.getElementById("Inquiries").reset();}
-        </script>
-          </p>
-          <div class="sidebar_base" id="stupid"></div>
-        </form>
                     
-        
-        
+        <div class="background">
+            <cite><a href="https://www.usgbcwm.org/members/chapter-member-directory/radient-gradient-bg-light/">Blue Background Image</a></cite>
+        </div>
     </body>
 </html>
